@@ -1,4 +1,4 @@
-from tf_idf import calc_tfidf
+from tfidf import calc_tfidf
 from make_data import data_maker
 from data_for_normalization import make_normalization_data
 from normalization import normalize
