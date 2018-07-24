@@ -16,4 +16,8 @@ def data_maker():
     weather2 = "today weather is sunny sky cloud is good snow man great rainy rain cloudy hot cold"
     data.append(weather2)
 
+    #天気3(『天気』と全く同じ文章)
+    sports2 = "today is sunny weather is cloudy snow sunny rainy cloud It is hot"
+    data.append(sports2)
+
     return data
