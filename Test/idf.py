@@ -1,5 +1,6 @@
 def calc_idf(data_for_idf, words_list):
     import numpy as np
+    print(words_list)
     count_sentence_in_words_list = []
     N = len(data_for_idf)
     for i in range(len(words_list)):
