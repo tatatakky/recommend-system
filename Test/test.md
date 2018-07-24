@@ -7,8 +7,8 @@
 - 最終的に『天気』の文章と類似度が近い文章がどの文章なのかを推定できればok。
 
 ### algorithms
-- tf-idf
-- cosine-similarity
+- tf-idf : 特徴ベクトルの算出
+- cosine-similarity : 類似度推定
 
 ### References
 ・https://en.wikipedia.org/wiki/Tf%E2%80%93idf</br>
