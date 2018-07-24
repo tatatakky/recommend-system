@@ -8,5 +8,4 @@ def calc_tf(data_for_tf):
             counter_of_words_t.append(1)
         else:
             counter_of_words_t[name_of_words_t.index(data_for_tf_list[i])] += 1
-
     return list(map(lambda x : x/sigma_sentence_count, counter_of_words_t)), name_of_words_t
