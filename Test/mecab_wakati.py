@@ -7,6 +7,8 @@ def wakati(text):
         divided_sentence += divide_text[i] + " "
     return divided_sentence
 if __name__ == '__main__':
-    with open('./data/wagahai_ha_neko_de_aru.txt') as f:
+    import sys
+    path = sys.argv[1]
+    with open(path) as f:
         text = f.read()
     print(wakati(text))

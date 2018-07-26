@@ -6,9 +6,9 @@ def wakati(text):
     for i in range(len(divide_text)):
         divided_sentence += divide_text[i] + " "
     return divided_sentence
-if __name__ == '__main__':
-    import sys
-    path = sys.argv[1]
-    with open(path) as f:
-        text = f.read()
-    print(wakati(text))
+# if __name__ == '__main__':
+#     import sys
+#     path = sys.argv[1]
+#     with open(path) as f:
+#         text = f.read()
+#     print(wakati(text))
