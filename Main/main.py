@@ -5,10 +5,12 @@ from normalization import normalize
 from cosine_similarity import calc_cosine_similarity
 import numpy as np
 from recommendation import recommend
+import sys
 def main():
     dic = {}
     normalization = []
-    data, book_list = make_jp_data()
+    bunsho_file = sys.argv[1]
+    data, book_list = make_jp_data(bunsho_file)
     for i in range(len(data)):
         tfidf, word_list_i = calc_tfidf(data[i], data)
         word_for_normalization, list_for_normalization = make_normalization_data(data)

@@ -6,5 +6,3 @@ def calc_cosine_similarity(normalization):
         similarity_data.append(np.dot(a,b)/(np.linalg.norm(a) * np.linalg.norm(b)))
     return similarity_data
 
-
-
