@@ -22,8 +22,11 @@ def main():
 
     print("\n\n===============recommendation================")
     recommendation = recommend(similarity, book_list)
-    for i, v in enumerate(recommendation.values()):
-        print(i+1, v)
+    if len(recommendation) == 0:
+        print("There are no recommendation in the data.")
+    else:
+        for i, v in enumerate(recommendation.values()):
+            print(i+1, v)
 
 if __name__ == '__main__':
     main()
