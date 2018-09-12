@@ -1,4 +1,4 @@
-# test
+# main
 レコメンドシステムを作るための簡単な実装テスト。
 
 ### Description

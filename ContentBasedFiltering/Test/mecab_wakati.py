@@ -12,3 +12,4 @@ if __name__ == '__main__':
     with open(path) as f:
         text = f.read()
     print(wakati(text))
+
